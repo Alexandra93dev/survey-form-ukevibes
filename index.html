@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="dcterms.created" content="Fri, 18 Oct 2019 14:58:42 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="formatare.css" />
+  </head>
+ <body>
+   <h1 id="title">Ukevibes Survey Form</h1>
+   <p id="description">Tell us how we can improve ukevibes:</p>
+   <form id="survey-form" method="get">
+     <div class="row-tab">
+       <div class="label-uke">
+     <label id="name-label">Name:</label>
+     </div>
+       <div class="input-uke">
+      <input type="text" id="name" size="15" maxlength="25" name="name" placeholder="Enter your name" autofocus="autofocus" required="required" />
+     </div>
+     </div>
+     <div class="row-tab">
+       <div class="label-uke">
+     <label id="email-label">Email:</label>
+       </div>
+       <div class="input-uke">
+       <input type="email" id="email" size="15" maxlength="25" name="email" placeholder="Enter your email" autofocus="autofocus" required="required" />
+     </div>
+     </div>
+     <div class="row-tab">
+       <div class="label-uke">
+     <label id="number-label">Age:</label>
+       </div>
+       <div class="input-uke">
+       <input type="number" id="number" name="age" min="0" max="100"  placeholder="Enter your email" autofocus="autofocus" required="required" />
+     </div>
+     </div>
+     <div class="row-tab">
+       <div class="label-select">
+     <label>What do you like most on ukevibes?</label>
+       </div>
+       <div class="select-input">
+     <select name="interests" id="dropdown">
+       <option value="choose">choose</option>
+       <option value="news">news</option>
+       <option value="lessons">lessons</option>
+       <option value="interviews">interviews</option>
+       <option value="tricks">tricks</option>
+     </select>
+       </div>
+       </div>
+     <div class="row-tab">
+       <div class="labels-radio">
+     Would you recommend ukevibes to a friend?
+       </div>
+       <div class="input-radio">
+         <div>
+         <label>Totally
+       <input type="radio" name="recommendation" value="totally" />
+         </label>
+         </div>
+         <div>
+         <label>Maybe
+      <input type="radio" name="recommendation" value="maybe" />
+         </label>
+         </div>
+         <div>
+         <label>Never
+      <input type="radio" name="recommendation" value="never" />
+         </label>
+         </div>
+       </div>
+     </div>
+     <div class="row-tab">
+       <div class="checkbox-labels">
+     <label>What can we improve?</label>
+       </div>
+       <div class="checkbox-input">
+         <div>
+         <label>Videos
+       <input type="checkbox" name="improve" value="videos" />
+         </label>
+         </div>
+         <div>
+         <label>Forum
+       <input type="checkbox" name="improve" value="forum" checked="checked" />
+         </label>
+         </div>
+         <div>
+         <label>Courses
+     <input type="checkbox" name="improve" value="courses" />
+         </label>
+         </div>
+         <div>
+         <label>Challenges
+     <input type="checkbox" name="improve" value="challenges" />
+         </label>
+       </div>
+       </div>
+       <div class="row-tab">
+     <p>Comments or suggestions:</p>
+       <textarea name="comentarii" maxlength="250" rows="5" cols="20" placeholder="Write your message here"></textarea>
+       </div>
+       <div class="row-tab">
+         <button id="submit" name="send" value="Send" style="padding:10px">Send</button>
+       </div>
+     </form>
+ </body>
+</html>
